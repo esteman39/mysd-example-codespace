@@ -1,0 +1,31 @@
+-- ===================================
+-- ----- XDominios -------------------
+-- ===================================
+
+DROP DOMAIN IF EXISTS TCHIP;
+DROP DOMAIN IF EXISTS TIdHabitacion;
+DROP DOMAIN IF EXISTS TTipoHabitacion;
+DROP DOMAIN IF EXISTS TActivo;
+DROP DOMAIN IF EXISTS TEstadoActivo;
+DROP DOMAIN IF EXISTS TEspacioComun;
+DROP DOMAIN IF EXISTS TEstadoEspacio;
+DROP DOMAIN IF EXISTS TReservaEspacio;
+DROP DOMAIN IF EXISTS TEstadoReserva;
+DROP DOMAIN IF EXISTS TIdentificacion;
+DROP DOMAIN IF EXISTS TTipoDocumento;
+DROP DOMAIN IF EXISTS TCargo;
+DROP DOMAIN IF EXISTS TIdContrato;
+DROP DOMAIN IF EXISTS TMoneda;
+DROP DOMAIN IF EXISTS TEstadoContrato;
+DROP DOMAIN IF EXISTS TIdInvitado;
+DROP DOMAIN IF EXISTS TDocumentoInvitado;
+DROP DOMAIN IF EXISTS TEstadoAcceso;
+DROP DOMAIN IF EXISTS TDireccion;
+DROP DOMAIN IF EXISTS TNumeroContrato;
+DROP DOMAIN IF EXISTS TCategoriaActivo;
+DROP DOMAIN IF EXISTS TEstadoHabitacion;
+DROP DOMAIN IF EXISTS TModalidadContrato;
+DROP DOMAIN IF EXISTS TTelefono;
+DROP DOMAIN IF EXISTS TCorreo;
+DROP DOMAIN IF EXISTS TCantidad;
+DROP DOMAIN IF EXISTS TDiaCorte;

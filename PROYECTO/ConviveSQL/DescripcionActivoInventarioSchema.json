@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://coliving.local/schemas/inventario-descripcion.schema.json",
+  "title": "DescripcionActivoInventario",
+  "description": "Esquema de validación para el atributo descripcionActivo en InventariosHabitaciones.",
+  "type": "object",
+  "properties": {
+    "material": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 120
+    },
+    "color": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 60
+    },
+    "dimensiones": {
+      "type": "string",
+      "maxLength": 80
+    },
+    "numero_serie": {
+      "type": "string",
+      "maxLength": 60
+    },
+    "observaciones": {
+      "type": "string",
+      "maxLength": 300
+    }
+  },
+  "required": ["material"],
+  "additionalProperties": false
+}
